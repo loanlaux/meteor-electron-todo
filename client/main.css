@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background: #A6CC4A;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: .3em 1em .7em 1em;
+  /*border-bottom: 3px solid #7D9937;*/
+  border-top: 1.4em solid #7D9937;
+}
+
+main {
+  padding: 17vh 5vw 0 5vw;
+}
+
+header input,
+header button {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: rgba(255, 255, 255, .7);
+  font-size: .9em;
+}
+
+header input {
+  width: 80vw;
+  border-bottom: 1px solid rgba(255, 255, 255, .7);
+  padding-bottom: .3em;
+}
+
+header input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, .7);
+}
+
+header button {
+  font-size: 1.1em;
+}
+
+main ul {
+  list-style: none;
+}
+
+.toggle-checked {
+  border-left: 6px solid rgba(0, 0, 0, .2);
+  height: 2em;
+  margin-bottom: .3em;
+  padding-left: .5em;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-checked.checked {
+  border-left: 6px solid #A6CC4A;
+}
+
+.toggle-checked button {
+  margin-left: 2em;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  border: none;
+  background: rgba(0, 0, 0, .2);
+  font-weight: 600;
+  color: rgba(0, 0, 0, .7);
+  padding-bottom: 2px;
+  display: none;
+  outline: none;
+}
+
+
+.toggle-checked:hover button {
+  display: block;
+}

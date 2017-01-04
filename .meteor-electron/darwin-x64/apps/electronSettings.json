@@ -1,0 +1,1 @@
+{"name":"Let's Get Shit Done","icon":{"darwin":"todo.png.icns"},"version":"0.1.0","description":"A really cool app.","height":700,"width":400,"frame":true,"title-bar-style":"hidden","resizable":false,"protocols":[{"name":"Let's Get Shit Done","schemes":["myapp"]}],"rootUrl":"http://localhost:3000/"}
